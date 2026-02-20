@@ -1,0 +1,25 @@
+name: GPClaimGUI
+version: 1.0.0
+main: dev.claimgui.Main
+api-version: '1.21'
+authors: [ClaimGUI]
+
+depend:
+  - PlaceholderAPI
+
+softdepend:
+  - GriefPrevention
+
+commands:
+  claim-gui:
+    description: Claim menüsünü açar
+    permission: claim.gui
+  gpclaim-reload:
+    description: Claim verilerini yeniler
+    permission: claim.admin
+
+permissions:
+  claim.gui:
+    default: true
+  claim.admin:
+    default: op
