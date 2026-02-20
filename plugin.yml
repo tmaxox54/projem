@@ -12,19 +12,10 @@ softdepend:
 
 commands:
   claim-gui:
-    description: Claim GUI aç
-    permission: claim.gui
-  claimgonder_ac:
-    description: Blok gönder
-    permission: claim.gui
-  claimal_ac:
-    description: Blok satın al
-    permission: claim.gui
-  claimtrust_ac:
-    description: Yetkili ekle
+    description: Claim menüsünü açar
     permission: claim.gui
   gpclaim-reload:
-    description: Claim verilerini yenile
+    description: Claim verilerini yeniler
     permission: claim.admin
 
 permissions:
